@@ -1,6 +1,6 @@
 name: RedStationCore2
 version: '1.0'
-main: net.quickesthenry.redstation.redStationCore.RedStationCore2
+main: net.quickesthenry.redstation.RedStationCore2.RedStationCore2
 api-version: '1.21'
 authors: [ QuickestHenry ]
 description: Core Plugin for RedStation Server
