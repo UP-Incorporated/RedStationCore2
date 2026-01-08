@@ -13,7 +13,7 @@ public final class PluginCommands {
     public static void register(LifecycleEventManager lifeCycleEventManager) {
         lifeCycleEventManager.registerEventHandler(LifecycleEvents.COMMANDS, PluginCommands::commandRegister);
     }
-    public static void commandRegister(LifecycleEvent command) {
+    public static void commandRegister(LifecycleEvent commands) {
         // Register commands here using brigadier api
     }
 }
