@@ -9,7 +9,7 @@ public final class RedStationCore2 extends JavaPlugin {
     @Override
     public void onEnable() {
         // Plugin startup logic
-        PluginCommands.register(getLifecycleManager());
+        PluginCommands.register();
         PluginEvents.register(getServer().getPluginManager());
     }
 
